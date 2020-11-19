@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<FlowMonitor>
+  <FlowStats>
+    <Flow flowId="1" timeFirstTxPacket="+2016001999.0ns" timeFirstRxPacket="+2018213322.0ns" timeLastTxPacket="+59992001999.0ns" timeLastRxPacket="+59977196901.0ns" delaySum="+1016868296146.0ns" jitterSum="+52062684209.0ns" lastDelay="+313194902.0ns" txBytes="7173384" rxBytes="3134372" txPackets="6978" rxPackets="3049" lostPackets="3478" timesForwarded="75">
+    </Flow>
+    <Flow flowId="2" timeFirstTxPacket="+2088001999.0ns" timeFirstRxPacket="+2092172116.0ns" timeLastTxPacket="+59992001999.0ns" timeLastRxPacket="+59735626931.0ns" delaySum="+984263385122.0ns" jitterSum="+56636664313.0ns" lastDelay="+159624932.0ns" txBytes="7441692" rxBytes="3131288" txPackets="7239" rxPackets="3046" lostPackets="3635" timesForwarded="261">
+    </Flow>
+    <Flow flowId="3" timeFirstTxPacket="+2288001999.0ns" timeFirstRxPacket="+2294339854.0ns" timeLastTxPacket="+59992001999.0ns" timeLastRxPacket="+59974668217.0ns" delaySum="+675436390146.0ns" jitterSum="+50369427005.0ns" lastDelay="+486666218.0ns" txBytes="7415992" rxBytes="2227676" txPackets="7214" rxPackets="2167" lostPackets="4042" timesForwarded="286">
+    </Flow>
+    <Flow flowId="4" timeFirstTxPacket="+2328001999.0ns" timeFirstRxPacket="+2334778726.0ns" timeLastTxPacket="+59992001999.0ns" timeLastRxPacket="+59746679706.0ns" delaySum="+867427234588.0ns" jitterSum="+48777638300.0ns" lastDelay="+498677707.0ns" txBytes="6934888" rxBytes="2310944" txPackets="6746" rxPackets="2248" lostPackets="3758" timesForwarded="211">
+      <packetsDropped reasonCode="0" number="52" />
+      <bytesDropped reasonCode="0" bytes="53456" />
+    </Flow>
+    <Flow flowId="5" timeFirstTxPacket="+2416001999.0ns" timeFirstRxPacket="+5426207029.0ns" timeLastTxPacket="+59992001999.0ns" timeLastRxPacket="+59999761354.0ns" delaySum="+1103212385760.0ns" jitterSum="+42146659557.0ns" lastDelay="+495759355.0ns" txBytes="7399544" rxBytes="3434548" txPackets="7198" rxPackets="3341" lostPackets="3322" timesForwarded="36">
+    </Flow>
+    <Flow flowId="6" timeFirstTxPacket="+4032001999.0ns" timeFirstRxPacket="+4047663901.0ns" timeLastTxPacket="+59992001999.0ns" timeLastRxPacket="+59998285040.0ns" delaySum="+624860448223.0ns" jitterSum="+41669200723.0ns" lastDelay="+22283041.0ns" txBytes="7191888" rxBytes="2063196" txPackets="6996" rxPackets="2007" lostPackets="4250" timesForwarded="285">
+    </Flow>
+    <Flow flowId="7" timeFirstTxPacket="+4032001999.0ns" timeFirstRxPacket="+4090979698.0ns" timeLastTxPacket="+59992001999.0ns" timeLastRxPacket="+59709998094.0ns" delaySum="+784272426052.0ns" jitterSum="+35882863278.0ns" lastDelay="+581996095.0ns" txBytes="7191888" rxBytes="2345896" txPackets="6996" rxPackets="2282" lostPackets="3768" timesForwarded="33">
+      <packetsDropped reasonCode="0" number="265" />
+      <bytesDropped reasonCode="0" bytes="272420" />
+    </Flow>
+    <Flow flowId="8" timeFirstTxPacket="+4032001999.0ns" timeFirstRxPacket="+4217795838.0ns" timeLastTxPacket="+58448001999.0ns" timeLastRxPacket="+59292592815.0ns" delaySum="+847244983066.0ns" jitterSum="+39579177505.0ns" lastDelay="+844590816.0ns" txBytes="6510324" rxBytes="2318140" txPackets="6333" rxPackets="2255" lostPackets="3372" timesForwarded="268">
+    </Flow>
+    <Flow flowId="9" timeFirstTxPacket="+4056001999.0ns" timeFirstRxPacket="+4692253209.0ns" timeLastTxPacket="+59992001999.0ns" timeLastRxPacket="+51681298966.0ns" delaySum="+164044520602.0ns" jitterSum="+18298718819.0ns" lastDelay="+1049296967.0ns" txBytes="5936700" rxBytes="270364" txPackets="5775" rxPackets="263" lostPackets="4443" timesForwarded="263">
+      <packetsDropped reasonCode="0" number="220" />
+      <bytesDropped reasonCode="0" bytes="226160" />
+    </Flow>
+    <Flow flowId="10" timeFirstTxPacket="+4080001999.0ns" timeFirstRxPacket="+5090109822.0ns" timeLastTxPacket="+59992001999.0ns" timeLastRxPacket="+59850951641.0ns" delaySum="+948464065087.0ns" jitterSum="+38819142639.0ns" lastDelay="+290949642.0ns" txBytes="7185720" rxBytes="3431464" txPackets="6990" rxPackets="3338" lostPackets="2915" timesForwarded="280">
+    </Flow>
+  </FlowStats>
+  <Ipv4FlowClassifier>
+    <Flow flowId="6" sourceAddress="10.1.1.11" destinationAddress="10.1.1.1" protocol="17" sourcePort="49153" destinationPort="9">
+      <Dscp value="0x0" packets="6996" />
+    </Flow>
+    <Flow flowId="7" sourceAddress="10.1.1.12" destinationAddress="10.1.1.2" protocol="17" sourcePort="49153" destinationPort="9">
+      <Dscp value="0x0" packets="6996" />
+    </Flow>
+    <Flow flowId="5" sourceAddress="10.1.1.13" destinationAddress="10.1.1.3" protocol="17" sourcePort="49153" destinationPort="9">
+      <Dscp value="0x0" packets="7198" />
+    </Flow>
+    <Flow flowId="8" sourceAddress="10.1.1.14" destinationAddress="10.1.1.4" protocol="17" sourcePort="49153" destinationPort="9">
+      <Dscp value="0x0" packets="6333" />
+    </Flow>
+    <Flow flowId="2" sourceAddress="10.1.1.15" destinationAddress="10.1.1.5" protocol="17" sourcePort="49153" destinationPort="9">
+      <Dscp value="0x0" packets="7239" />
+    </Flow>
+    <Flow flowId="1" sourceAddress="10.1.1.16" destinationAddress="10.1.1.6" protocol="17" sourcePort="49153" destinationPort="9">
+      <Dscp value="0x0" packets="6978" />
+    </Flow>
+    <Flow flowId="9" sourceAddress="10.1.1.17" destinationAddress="10.1.1.7" protocol="17" sourcePort="49153" destinationPort="9">
+      <Dscp value="0x0" packets="5775" />
+    </Flow>
+    <Flow flowId="3" sourceAddress="10.1.1.18" destinationAddress="10.1.1.8" protocol="17" sourcePort="49153" destinationPort="9">
+      <Dscp value="0x0" packets="7214" />
+    </Flow>
+    <Flow flowId="10" sourceAddress="10.1.1.19" destinationAddress="10.1.1.9" protocol="17" sourcePort="49153" destinationPort="9">
+      <Dscp value="0x0" packets="6990" />
+    </Flow>
+    <Flow flowId="4" sourceAddress="10.1.1.20" destinationAddress="10.1.1.10" protocol="17" sourcePort="49153" destinationPort="9">
+      <Dscp value="0x0" packets="6746" />
+    </Flow>
+  </Ipv4FlowClassifier>
+  <Ipv6FlowClassifier>
+  </Ipv6FlowClassifier>
+</FlowMonitor>
